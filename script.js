@@ -106,23 +106,23 @@ const menuData = [
 ];
 
 // App State
-let cart = JSON.parse(localStorage.getItem('lore_cart')) || [];
+let cart = JSON.parse(localStorage.getItem('elegance_cart')) || [];
 let currentTable = null;
-const whatsappNumber = "8801410008940";
+const whatsappNumber = "8801913788799";
 
 const defaultReviews = [
     { name: "A. Rahman", stars: 5, text: "The best coffee in Jashore. The ambiance is incredibly peaceful, perfect for reading.", date: new Date().getTime() },
     { name: "S. Islam", stars: 5, text: "Amazing interior and the Grilled Chicken Steak Burger is a must-try!", date: new Date().getTime() - 86400000 },
     { name: "K. Hossain", stars: 5, text: "Very easy to order from the table. Premium feel all around.", date: new Date().getTime() - 172800000 }
 ];
-let siteReviews = JSON.parse(localStorage.getItem('lore_reviews')) || defaultReviews;
+let siteReviews = JSON.parse(localStorage.getItem('elegance_reviews')) || defaultReviews;
 
 function saveCart() {
-    localStorage.setItem('lore_cart', JSON.stringify(cart));
+    localStorage.setItem('elegance_cart', JSON.stringify(cart));
 }
 
 function saveReviews() {
-    localStorage.setItem('lore_reviews', JSON.stringify(siteReviews));
+    localStorage.setItem('elegance_reviews', JSON.stringify(siteReviews));
 }
 
 // DOM Elements
@@ -375,7 +375,7 @@ function renderMenu(categoryName) {
                 const card = document.createElement('div');
                 card.className = 'menu-card';
                 card.innerHTML = `
-                    <img src="${item.image}" alt="${item.name}" class="menu-card-img" onerror="this.src='Lore Cafe_ interior.png'">
+                    <img src="${item.image}" alt="${item.name}" class="menu-card-img" onerror="this.src='Elegant Restaurant Interior Branding.png'">
                     <div class="menu-card-content">
                         <div class="menu-card-header">
                             <h3 class="menu-item-name">${item.name}</h3>
@@ -402,7 +402,7 @@ function renderFeaturedMenu() {
                 const card = document.createElement('div');
                 card.className = 'menu-card';
                 card.innerHTML = `
-                    <img src="${item.image}" alt="${item.name}" class="menu-card-img" onerror="this.src='Lore Cafe_ interior.png'">
+                    <img src="${item.image}" alt="${item.name}" class="menu-card-img" onerror="this.src='Elegant Restaurant Interior Branding.png'">
                     <div class="menu-card-content">
                         <div class="menu-card-header">
                             <h3 class="menu-item-name">${item.name}</h3>
@@ -498,7 +498,7 @@ function submitOrderWithDetails() {
     const tableNum = document.getElementById('table-number').value;
 
     let text = "🔔 *NEW ORDER*\n";
-    text += "🏪 *LORE CAFE*\n";
+    text += "🏪 *ELEGANCE RESTAURANT AND PARTY CENTER*\n";
     text += `👤 *Name:* ${name}\n`;
     text += `🛍 *Type:* ${type}\n`;
     
