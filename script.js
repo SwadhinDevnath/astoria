@@ -20,7 +20,7 @@ const menuData = [
             { id: "f1", name: "Golden Crispy Chicken Strips (4 pcs)", price: 230, desc: "Crispy coated tender chicken strips.", image: "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop" },
             { id: "f2", name: "Thai Chicken Fry (Single)", price: 99, desc: "Spicy Thai style fried chicken.", image: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=800&auto=format&fit=crop" },
             { id: "f3", name: "Thai Chicken Fry (4 pcs)", price: 350, desc: "Spicy Thai style fried chicken.", image: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=800&auto=format&fit=crop" },
-            { id: "f4", name: "Thai Chicken Fry (6 pcs)", price: 510, desc: "Spicy Thai style fried chicken.", image: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=800&auto=format&fit=crop", isFeatured: true },
+            { id: "f4", name: "Thai Chicken Fry (6 pcs)", price: 510, desc: "Spicy Thai style fried chicken.", image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop", isFeatured: true },
             { id: "f5", name: "Crispy Chicken Fry (Single)", price: 109, desc: "Classic crispy fried chicken piece.", image: "https://images.unsplash.com/photo-1569691899455-88464f6d3ce1?q=80&w=800&auto=format&fit=crop" },
             { id: "f6", name: "Crispy Chicken Fry (4 pcs)", price: 360, desc: "Classic crispy fried chicken pieces.", image: "https://images.unsplash.com/photo-1569691899455-88464f6d3ce1?q=80&w=800&auto=format&fit=crop" },
             { id: "f7", name: "Crispy Chicken Fry (6 pcs)", price: 530, desc: "Classic crispy fried chicken pieces.", image: "https://images.unsplash.com/photo-1569691899455-88464f6d3ce1?q=80&w=800&auto=format&fit=crop" },
@@ -38,7 +38,7 @@ const menuData = [
             { id: "c5", name: "Red Velvet Brownie", price: 110, desc: "Swirled red velvet and cream cheese.", image: "https://images.unsplash.com/photo-1586788224331-947f68671b56?q=80&w=800&auto=format&fit=crop" },
             { id: "c6", name: "Blondie (White Chocolate Brownie)", price: 90, desc: "Sweet vanilla and white chocolate.", image: "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop" },
             { id: "c7", name: "Chocolate Cheesecake", price: 180, desc: "Creamy cheesecake with chocolate flavor.", image: "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?q=80&w=800&auto=format&fit=crop" },
-            { id: "c8", name: "Blueberry Cheesecake", price: 190, desc: "Classic cheesecake topped with blueberries.", image: "https://images.unsplash.com/photo-1533134242443-d4fd01530262?q=80&w=800&auto=format&fit=crop", isFeatured: true },
+            { id: "c8", name: "Blueberry Cheesecake", price: 190, desc: "Classic cheesecake topped with blueberries.", image: "https://images.unsplash.com/photo-1524351199678-941a58a3df50?q=80&w=800&auto=format&fit=crop", isFeatured: true },
             { id: "c9", name: "Butterscotch Cake", price: 150, desc: "Sweet caramel butterscotch layers.", image: "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop" },
             { id: "c10", name: "Chocolate Mocha Cake", price: 150, desc: "Coffee and chocolate infused cake.", image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop" },
             { id: "c11", name: "Chocolate Loaded Cake", price: 160, desc: "Ultimate chocolate lover's dream.", image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?q=80&w=800&auto=format&fit=crop" },
@@ -54,7 +54,7 @@ const menuData = [
             { id: "h4", name: "Velvet Cappuccino", price: 220, desc: "Espresso with thick steamed milk foam.", image: "https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=800&auto=format&fit=crop" },
             { id: "h5", name: "Silk Milk Latte", price: 240, desc: "Creamy espresso with steamed milk.", image: "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?q=80&w=800&auto=format&fit=crop" },
             { id: "h6", name: "Latte Flavour Infusion", price: 310, desc: "Vanilla / Hazelnut / Caramel.", image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=800&auto=format&fit=crop" },
-            { id: "h7", name: "Signature Mocha", price: 260, desc: "Espresso layered with rich chocolate.", image: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?q=80&w=800&auto=format&fit=crop", isFeatured: true },
+            { id: "h7", name: "Signature Mocha", price: 260, desc: "Espresso layered with rich chocolate.", image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop", isFeatured: true },
             { id: "h8", name: "Italian Macchiato", price: 175, desc: "Espresso marked with a dash of foam.", image: "https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=800&auto=format&fit=crop" },
             { id: "h9", name: "Belgian Hot Chocolate", price: 240, desc: "Pure decadent warm Belgian chocolate.", image: "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?q=80&w=800&auto=format&fit=crop" }
         ]
@@ -68,7 +68,7 @@ const menuData = [
             { id: "i4", name: "Latte Flavour Infusion", price: 330, desc: "Vanilla / Hazelnut / Caramel iced latte.", image: "https://images.unsplash.com/photo-1461023058943-0708e52238eb?q=80&w=800&auto=format&fit=crop" },
             { id: "i5", name: "Signature Mocha", price: 280, desc: "Iced chocolate espresso beverage.", image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop" },
             { id: "i6", name: "Italian Macchiato", price: 195, desc: "Chilled macchiato.", image: "https://images.unsplash.com/photo-1592663527359-cf6642f54cff?q=80&w=800&auto=format&fit=crop" },
-            { id: "i7", name: "Classic Chocolate Cold Coffee", price: 290, desc: "Rich cold coffee. (Whipped cream +30 TK)", image: "https://images.unsplash.com/photo-1557006021-b85faa2caeda?q=80&w=800&auto=format&fit=crop", isFeatured: true }
+            { id: "i7", name: "Classic Chocolate Cold Coffee", price: 290, desc: "Rich cold coffee. (Whipped cream +30 TK)", image: "https://images.pexels.com/photos/3727220/pexels-photo-3727220.jpeg?auto=compress&cs=tinysrgb&w=800", isFeatured: true }
         ]
     },
     {
@@ -79,7 +79,7 @@ const menuData = [
             { id: "fr3", name: "Mocha Blast Frappé", price: 280, desc: "Chocolatey coffee ice blend.", image: "https://images.unsplash.com/photo-1579954115545-a957115553ce?q=80&w=800&auto=format&fit=crop" },
             { id: "fr4", name: "Vanilla Frappé", price: 290, desc: "Smooth vanilla ice blend.", image: "https://images.unsplash.com/photo-1553177595-4de2bb0842b9?q=80&w=800&auto=format&fit=crop" },
             { id: "ms1", name: "Chocolate Indulgence Shake", price: 290, desc: "Thick premium chocolate milkshake.", image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop" },
-            { id: "ms2", name: "Strawberry Bliss Shake", price: 250, desc: "Sweet strawberry creamy shake.", image: "https://images.unsplash.com/photo-1579954115563-e72bf1381629?q=80&w=800&auto=format&fit=crop", isFeatured: true },
+            { id: "ms2", name: "Strawberry Bliss Shake", price: 250, desc: "Sweet strawberry creamy shake.", image: "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=800", isFeatured: true },
             { id: "ms3", name: "Madagascar Vanilla Shake", price: 220, desc: "Classic rich vanilla shake.", image: "https://images.unsplash.com/photo-1553177595-4de2bb0842b9?q=80&w=800&auto=format&fit=crop" },
             { id: "ms4", name: "Fresh Mango Cream Shake", price: 290, desc: "Seasonal mango blended with cream.", image: "https://images.unsplash.com/photo-1546889814-1e0e1bba8f46?q=80&w=800&auto=format&fit=crop" },
             { id: "ms5", name: "Oreo Crumble Shake", price: 260, desc: "Crushed Oreos in a thick vanilla base.", image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop" },
@@ -108,7 +108,7 @@ const menuData = [
 // App State
 let cart = JSON.parse(localStorage.getItem('elegance_cart')) || [];
 let currentTable = null;
-const whatsappNumber = "8801913788799";
+const whatsappNumber = "8801784336504";
 
 const defaultReviews = [
     { name: "A. Rahman", stars: 5, text: "The best coffee in Jashore. The ambiance is incredibly peaceful, perfect for reading.", date: new Date().getTime() },
@@ -375,7 +375,7 @@ function renderMenu(categoryName) {
                 const card = document.createElement('div');
                 card.className = 'menu-card';
                 card.innerHTML = `
-                    <img src="${item.image}" alt="${item.name}" class="menu-card-img" onerror="this.src='Elegant Restaurant Interior Branding.png'">
+                    <img src="${item.image}" alt="${item.name}" class="menu-card-img" onerror="this.src='Lore%20Cafe_%20interior.png'">
                     <div class="menu-card-content">
                         <div class="menu-card-header">
                             <h3 class="menu-item-name">${item.name}</h3>
@@ -402,7 +402,7 @@ function renderFeaturedMenu() {
                 const card = document.createElement('div');
                 card.className = 'menu-card';
                 card.innerHTML = `
-                    <img src="${item.image}" alt="${item.name}" class="menu-card-img" onerror="this.src='Elegant Restaurant Interior Branding.png'">
+                    <img src="${item.image}" alt="${item.name}" class="menu-card-img" onerror="this.src='Lore%20Cafe_%20interior.png'">
                     <div class="menu-card-content">
                         <div class="menu-card-header">
                             <h3 class="menu-item-name">${item.name}</h3>
@@ -498,7 +498,7 @@ function submitOrderWithDetails() {
     const tableNum = document.getElementById('table-number').value;
 
     let text = "🔔 *NEW ORDER*\n";
-    text += "🏪 *ELEGANCE RESTAURANT AND PARTY CENTER*\n";
+    text += "🏪 *ASTORIA*\n";
     text += `👤 *Name:* ${name}\n`;
     text += `🛍 *Type:* ${type}\n`;
     
